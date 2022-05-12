@@ -43,7 +43,7 @@ def toNewWordCsv(newWords,file_name):
 def predictNewWord(args):
     csv_path = os.path.join(args.CWD, 'CandidateWordResult',
                             'CandidateWordResult_%s.csv' % (args.file_name))
-    predict_data = pd.read_csv(csv_path,encoding='gbk')
+    predict_data = pd.read_csv(csv_path,encoding='utf-8')
     if not predict_data.empty:
         predict_data = predict_data.sort_values(by=['Num'],ascending=False)
         newWords = predict_data['Word'].tolist()
