@@ -20,7 +20,7 @@ import pandas as pd
 import re
 
 logger = logging.getLogger('NLP')
-from NovelWordDiscovery.NewWordDiscovery.tool.initialingCorpus import *
+from .tool.initialingCorpus import *
 
 
 def standard(csv_path,column):

@@ -24,7 +24,7 @@ import pickle
 import time
 import logging
 
-from NovelWordDiscovery.NewWordDiscovery.tool.LOG import logger_set
+from .tool.LOG import logger_set
 from .get_corpus import get_corpus  # 文本读取文件
 import pandas as pd
 

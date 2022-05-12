@@ -19,7 +19,7 @@ import time
 from math import log
 import logging
 from multiprocessing import Process, Queue, cpu_count
-from NovelWordDiscovery.NewWordDiscovery.tool.LOG import logger_set  # 日志设置文件
+from .tool.LOG import logger_set  # 日志设置文件
 
 logger = logging.getLogger('NLP')
 

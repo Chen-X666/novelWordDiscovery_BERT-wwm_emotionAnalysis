@@ -15,7 +15,7 @@ from .PredictNewWord import predictNewWord
 from .SlideCutWord import multi_count_word  # 多进程切词计数
 from .WordDiscovery import word_discover  # 新词发现程序
 from .GetNewWord import get_new_word  # 提取各个进程找到的新词
-from NovelWordDiscovery.NewWordDiscovery.tool.LOG import logger_set  # 调用日志设置文件
+from .tool.LOG import logger_set  # 调用日志设置文件
 import pandas as pd
 
 # 新词发现程序中使用的 变量存储类

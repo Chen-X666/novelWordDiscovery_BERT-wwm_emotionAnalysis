@@ -13,9 +13,9 @@ import logging
 import os
 from collections import Counter
 
-from NovelWordDiscovery.NewWordDiscovery.tool.langconv import *
-from NovelWordDiscovery.NewWordDiscovery.tool.initialingCorpus import getEmojiCorpus
-from NovelWordDiscovery.NewWordDiscovery.tool.flashText import *
+from .tool.langconv import *
+from .tool.initialingCorpus import getEmojiCorpus
+from .tool.flashText import *
 import pandas as pd
 import re
 
