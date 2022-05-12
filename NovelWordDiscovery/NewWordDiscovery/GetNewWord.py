@@ -15,12 +15,12 @@ import pickle
 import logging
 import shutil
 import time
-from NewWordDiscovery.get_corpus import get_corpus
+
 import pandas as pd
 import re
 
 logger = logging.getLogger('NLP')
-from NewWordDiscovery.tool.initialingCorpus import *
+from NovelWordDiscovery.NewWordDiscovery.tool.initialingCorpus import *
 
 
 def standard(csv_path,column):

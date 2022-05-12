@@ -23,7 +23,8 @@ from multiprocessing import Process, Queue, cpu_count
 import pickle
 import time
 import logging
-from NewWordDiscovery.tool.LOG import logger_set  # 日志设置文件
+
+from NovelWordDiscovery.NewWordDiscovery.tool.LOG import logger_set
 from .get_corpus import get_corpus  # 文本读取文件
 import pandas as pd
 

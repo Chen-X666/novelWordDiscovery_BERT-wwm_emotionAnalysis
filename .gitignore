@@ -2,3 +2,5 @@
 /NovelWordDiscovery/Temp
 /NovelWordDiscovery/CandidateWordResult/
 /NovelWordDiscovery/NewWordResult
+/NovelWordDiscovery/NewWordDiscovery/__pycache__/
+/NovelWordDiscovery/NewWordDiscovery/tool/__pycache__
